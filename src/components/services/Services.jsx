@@ -5,110 +5,99 @@ import {BiCheck} from 'react-icons/bi'
 const Services = () => {
   return (
     <section id='services'>
-      <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h5>What have I achieved</h5>
+      <h2>Awards and Accomplishment</h2>
 
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Academic</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p> 
+              <p>SUTD Sophomore/Junior Honours List '23</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p> 
+              <p>SUTD Freshmore Honours List '22</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p> 
+              <p>SUTD Technology Entrepreneurship Programme (STEP) Scholar</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p> 
+              <p>PJC Colours Award '19</p> 
             </li>
 
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p> 
-            </li>
           </ul>
         </article>
 
         <article className="service">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Non-Academic</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p> 
+              <p>Singtel Information Systems & Programming awards</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p> 
+              <p>Finalist in WHAT THE HACK 2023</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p> 
+              <p>Top 3 in "Ideate Something" Entrepreneurship Workshop</p> 
+            </li>
+            
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Outstanding Student Organisation Award (SOAR)</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p> 
+              <p>Outstanding 1D Project Exhibit: Information Systems and Programming & Computation Structures</p> 
             </li>
 
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p> 
-            </li>
-
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p> 
-            </li>
           </ul>
         </article>
 
         <article className="service">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Volunteering Experience</h3>
           </div>
 
           <ul className='service__list'>
+            <small className='time'>Ongoing</small>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p> 
+              <p>Children Church Teacher</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p> 
+              <p>Church Usher</p> 
+            </li>
+
+            <small className='time'>Past</small>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Project Touching Hearts - Cambodia</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p> 
-            </li>
-
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p> 
-            </li>
-
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p> 
+              <p>Tutoring for the underprevilleged</p> 
             </li>
           </ul>
         </article>

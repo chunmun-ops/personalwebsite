@@ -1,6 +1,7 @@
 .container.testimonials__container {
     width: 40%;
     padding-bottom: 4rem;
+    height: fit-content;
 }
 
 .client__avatar {
@@ -32,11 +33,16 @@
     background: var(--color-primary);
 } 
 
+.position {
+    color: #e5fcf5;
+}
+
 /* =============== MEDIA QUERIES (MEDIUM DEVICES E.G.TABLET) ==================== */ 
 
 @media screen and (max-width:1024px) {
     .container.testimonials__container {
         width: 60%;
+        height: fit-content;
     }
 }
 
@@ -45,9 +51,10 @@
 @media screen and (max-width:600px) {
     .container.testimonials__container {
         width: var(--container-width-sm);
+        height: fit-content;
     }
 
-    .client__Review {
+    .client__review {
         width: var(--container-width-sm);
     }
 }

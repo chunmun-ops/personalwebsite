@@ -1,53 +1,61 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
+import IMG1 from '../../assets/maybank.jpg'
+import IMG2 from '../../assets/OSL_Logo.png'
 import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG4 from '../../assets/MERN.png'
+import IMG5 from '../../assets/hungrybee.png'
+import IMG6 from '../../assets/HCI.jpg'
+import IMG7 from '../../assets/trafficlightshowdown.jpg'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Project 1',
+    title: 'Maybank 360 Evaluation Automation',
     github: 'https://github.com',
     demo:'https://github.com'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Project 2',
-    github: 'https://github.com',
-    demo:'https://github.com'
+    title: 'OSL Fifth Row App',
+    github: 'https://github.com/esctmp/osl-fifth-row-app.git',
+    demo:'https://drive.google.com/file/d/1sQpJY8KudrkNaZZT0YPnvjGOF1c7M81x/view'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Project 3',
+    title: 'REACT Portfolio Website',
     github: 'https://github.com',
     demo:'https://github.com'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Project 4',
+    title: 'MERN AI Generation App',
     github: 'https://github.com',
     demo:'https://github.com'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Project 5',
-    github: 'https://github.com',
-    demo:'https://github.com'
+    title: 'HungryBees Java Mobile Application',
+    github: 'https://github.com/thehotdogs/just-hungry-app',
+    demo:'https://www.youtube.com/watch?v=KLRkWafdvCo'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'Project 6',
+    title: 'Project Firefly - HCI',
     github: 'https://github.com',
+    demo:'https://github.com'
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: 'Traffic Light Showdown Game',
+    github: 'https://github.com/thehotdogs/traffic-light-showdown',
     demo:'https://github.com'
   }
 ]

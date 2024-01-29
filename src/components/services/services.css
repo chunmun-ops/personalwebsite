@@ -51,6 +51,11 @@
     font-size: 0.9rem;
 }
 
+.time {
+    color: var(--color-primary);
+    font-size: 1rem;
+}
+
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES E.G.TABLET) ==================== */ 
 

@@ -52,9 +52,13 @@ footer a {
     color: var(--color-bg);
 }
 
+/* =============== MEDIA QUERIES (MEDIUM DEVICES E.G.TABLET) ==================== */ 
+
+
 /* =============== MEDIA QUERIES (SMALL DEVICES) ==================== */ 
 
 @media screen and (max-width:600px) {
+
     .permalinks {
         flex-direction: column;
         gap: 1.5rem;
