@@ -23,7 +23,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Education</h5>
-              <small>Penultimate Year Computer Science Student</small>
+              <small>Penultimate Year CS Student</small>
             </article>
 
             <article className="about__card">
@@ -40,7 +40,7 @@ const About = () => {
           </div>
 
           <p>
-            Hey there! I'm Chun Mun, a penultimate-year Computer Science
+            Hey there! I'm Chun Mun, a penultimate year Computer Science
             enthusiast that have dived into an exciting exchange program split
             between the United States and China. I'm thrilled about the prospect
             of connecting with new faces and broadening my horizons. My passion
